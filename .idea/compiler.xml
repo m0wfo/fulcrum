@@ -23,8 +23,15 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="fulcrum" />
+        <module name="lejs" />
+        <module name="netty-utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fulcrum" target="1.7" />
+      <module name="lejs" target="1.7" />
+      <module name="netty-utils" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

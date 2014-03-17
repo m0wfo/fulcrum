@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fulcrum.iml" filepath="$PROJECT_DIR$/fulcrum.iml" />
+      <module fileurl="file://$USER_HOME$/le/lejs/lejs.iml" filepath="$USER_HOME$/le/lejs/lejs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../netty-utils/netty-utils.iml" filepath="$PROJECT_DIR$/../netty-utils/netty-utils.iml" />
     </modules>
   </component>
 </project>
