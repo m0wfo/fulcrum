@@ -3,17 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="414fa080-c659-46f9-b82e-49ec7b2e8504" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/ResponseHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/HttpPipeline.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/inject/APIModule.java" afterPath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/inject/APIModule.java" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/BackendController.java" afterPath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/BackendController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/HttpResponseDecorator.java" afterPath="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/HttpResponseDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/MonitoringHandler.java" afterPath="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/MonitoringHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/pipelines/MonitoringPipeline.java" afterPath="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/pipelines/MonitoringPipeline.java" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/ProxyHandler.java" afterPath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/ProxyHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/Reporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/Reporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/Service.java" afterPath="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/Service.java" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/util/Util.java" afterPath="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/util/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fulcrum.iml" afterPath="$PROJECT_DIR$/fulcrum.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../netty-utils/pom.xml" afterPath="$PROJECT_DIR$/../netty-utils/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fulcrum.iws" />
@@ -23,16 +26,34 @@
     <file path="/pom.xml" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395056128872" ignored="false" />
     <file path="/Main.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1394999359999" ignored="false" />
     <file path="/LifeCycleAware.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1394999604173" ignored="false" />
-    <file path="/Service.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395001784378" ignored="false" />
+    <file path="/Service.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395455724858" ignored="false" />
     <file path="/Server.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395001659127" ignored="false" />
-    <file path="/HttpPipeline.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395004196796" ignored="false" />
+    <file path="/HttpPipeline.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395454454180" ignored="false" />
     <file path="/fragment.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395045784208" ignored="false" />
-    <file path="/MonitoringHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395055517563" ignored="false" />
+    <file path="/MonitoringHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395368799825" ignored="false" />
     <file path="/MonitoringServer.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395047721407" ignored="false" />
-    <file path="/HttpResponseDecorator.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395053129811" ignored="false" />
+    <file path="/HttpResponseDecorator.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395367186874" ignored="false" />
     <file path="/GetHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395051216756" ignored="false" />
-    <file path="/MonitoringPipeline.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395053262540" ignored="false" />
+    <file path="/MonitoringPipeline.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395368676655" ignored="false" />
     <file path="/ProxyHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395055802531" ignored="false" />
+    <file path="/NettyContainer.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395255454911" ignored="false" />
+    <file path="/AutoCloseHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395368299475" ignored="false" />
+    <file path="/RestHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395065786115" ignored="false" />
+    <file path="/RestPipeline.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395368277402" ignored="false" />
+    <file path="/HttpHello.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395454275907" ignored="false" />
+    <file path="/HttpRest.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395172513671" ignored="false" />
+    <file path="/HttpCatchAllHandler.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395368165057" ignored="false" />
+    <file path="/Resource.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395370615456" ignored="false" />
+    <file path="/Controller.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395368439740" ignored="false" />
+    <file path="/BaseModule.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395456523031" ignored="false" />
+    <file path="/RestController.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395371452248" ignored="false" />
+    <file path="/Response.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395371431994" ignored="false" />
+    <file path="/HttpService.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395456561063" ignored="false" />
+    <file path="/Pipeline.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395454089074" ignored="false" />
+    <file path="/Deserializer.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395452241216" ignored="false" />
+    <file path="/Reporter.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395455611434" ignored="false" />
+    <file path="/Trace.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395456307648" ignored="false" />
+    <file path="/TraceInterceptor.java" changelist="414fa080-c659-46f9-b82e-49ec7b2e8504" time="1395456439101" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +114,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23195876">
+            <state line="102" column="21" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,16 +126,46 @@
       <file leaf-file-name="MonitoringServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/MonitoringServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+            <state line="5" column="29" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/ProxyHandler.java">
+      <file leaf-file-name="HttpHello.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/examples/HttpHello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="82" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#389#653#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="50" selection-start="322" selection-end="322" vertical-scroll-proportion="0.13452914">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/http/HttpService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="26" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,22 +189,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/rest/Resource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/rest/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/rest/RestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/http/rest/HttpService.java" />
+        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/rest/Deserializer.java" />
+        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/rest/JsonCodec.java" />
+        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/pipelines/Pipeline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/examples/HttpHello.java" />
+        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/pipelines/HttpPipeline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/ServiceNamer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/Reporter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/HttpPipeline.java" />
-        <option value="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/monitoring/HttpResponseDecorator.java" />
-        <option value="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/GetHandler.java" />
-        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/MonitoringHandler.java" />
-        <option value="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/monitoring/MonitoringHandler.java" />
-        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/HttpResponseDecorator.java" />
-        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/pipelines/MonitoringPipeline.java" />
-        <option value="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/monitoring/MonitoringServer.java" />
-        <option value="$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/ProxyHandler.java" />
-        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/MonitoringHandler.java" />
-        <option value="$PROJECT_DIR$/../netty-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/ProxyHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/Trace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/TraceInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/BaseModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/http/HttpService.java" />
       </list>
     </option>
   </component>
@@ -166,11 +217,21 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="21" />
-    <option name="width" value="1368" />
-    <option name="height" value="751" />
+    <option name="width" value="1922" />
+    <option name="height" value="1063" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -230,6 +291,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -272,6 +337,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pipelines" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,6 +371,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,22 +499,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fulcrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fulcrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,14 +519,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fulcrum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,6 +578,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fulcrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -526,7 +667,27 @@
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.HttpHello">
+    <configuration default="false" name="HttpHello" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mowforth.fulcrum.examples.HttpHello" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fulcrum" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -602,9 +763,15 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HttpHello" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.HttpHello" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -620,26 +787,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="21" width="1368" height="751" extended-state="6" />
+    <frame x="-1" y="21" width="1922" height="1063" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.73638344" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6198257" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38017428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.73638344" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6198257" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17609392" sideWeight="0.6198257" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -706,110 +873,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/monitoring/MonitoringHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar!/org/slf4j/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.31950673">
+        <state line="501" column="14" selection-start="16080" selection-end="16080" vertical-scroll-proportion="1.1620626">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.17.Final/netty-all-4.0.17.Final-sources.jar!/io/netty/util/AttributeKey.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/governator/governator/1.2.3/governator-1.2.3-sources.jar!/com/netflix/governator/guice/LifecycleInjectorBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.10067114" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/util/ChannelAttachments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="588" selection-end="588" vertical-scroll-proportion="0.2852349">
+        <state line="68" column="36" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/ProxyHandler.java">
+    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/LifecycleAware.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="638" selection-end="744" vertical-scroll-proportion="0.35234898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/monitoring/MonitoringServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.26174498">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/HttpResponseDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.016778523">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.17.Final/netty-all-4.0.17.Final-sources.jar!/io/netty/handler/codec/compression/JdkZlibDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/le/lejs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1841" selection-end="2086" vertical-scroll-proportion="0.31879196">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/MonitoringHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.016778523">
+        <state line="12" column="17" selection-start="320" selection-end="320" vertical-scroll-proportion="0.3314917">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/Reporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.23489933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/handlers/TokenHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.098434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../netty-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="808" selection-end="1223" vertical-scroll-proportion="0.5412371">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/LifecycleAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.33505154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/handlers/ProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="82" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/MonitoringServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+        <state line="18" column="33" selection-start="408" selection-end="408" vertical-scroll-proportion="0.47513813">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23195876">
+        <state line="102" column="21" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/Trace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.16574585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/TraceInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.110497236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-utils/src/main/java/com/mowforth/netty/util/pipelines/HttpPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.3314917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/monitoring/MonitoringServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/BaseModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="99" selection-start="942" selection-end="942" vertical-scroll-proportion="0.6132597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/ServiceNamer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/examples/HttpHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#389#653#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/http/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/le/lejs/src/main/java/com/logentries/js/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="26" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mowforth/fulcrum/core/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="50" selection-start="322" selection-end="322" vertical-scroll-proportion="0.13452914">
           <folding />
         </state>
       </provider>
