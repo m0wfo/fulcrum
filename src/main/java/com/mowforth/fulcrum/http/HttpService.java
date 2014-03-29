@@ -21,7 +21,7 @@ public abstract class HttpService extends SimpleChannelInboundHandler<FullHttpRe
      * @param request
      * @return
      */
-    public abstract Observable<? extends HttpObject> apply(FullHttpRequest request);
+    public abstract Observable<? extends HttpObject> apply(FullHttpRequest request) throws Exception;
 
     @Override
     protected void channelRead0(final ChannelHandlerContext ctx, FullHttpRequest msg) throws Exception {
@@ -29,10 +29,10 @@ public abstract class HttpService extends SimpleChannelInboundHandler<FullHttpRe
         apply(msg)
                 .cast(HttpObject.class)
                 .subscribe(new Action1<HttpObject>() {
-                    @Override
-                    public void call(HttpObject httpMessage) {
-                        ctx.writeAndFlush(httpMessage);
-                    }
-                });
+					@Override
+					public void call(HttpObject httpMessage) {
+						ctx.writeAndFlush(httpMessage);
+					}
+				});
     }
 }

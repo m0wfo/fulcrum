@@ -2,9 +2,10 @@ package com.mowforth.fulcrum.core;
 
 import com.google.common.base.Preconditions;
 import com.google.common.base.Throwables;
-import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.Module;
+import com.google.inject.Provider;
+import com.google.inject.util.Modules;
 import com.mowforth.fulcrum.monitoring.Reporter;
 import com.mowforth.netty.util.pipelines.Pipeline;
 import com.netflix.governator.guice.LifecycleInjector;
@@ -58,12 +59,18 @@ public class Service {
             Preconditions.checkArgument(handlers != null);
             Preconditions.checkArgument(handlers.length > 0, "You must specify at least one application handler.");
 
-            Injector injector = LifecycleInjector.builder()
-                    .withModules(new BaseModule("FOO"))
-                    .withAdditionalModules(modules).createInjector();
+            Module combined = Modules.override(new BaseModule("BASE")).with(modules);
+
+			Injector injector = LifecycleInjector.builder()
+					.withModules(combined)
+					.createInjector();
 
             Pipeline pipelineInstance = injector.getInstance(pipeline);
-            pipelineInstance.setApplicationHandlers(handlers);
+			Provider[] providers = new Provider[handlers.length];
+			for (int i = 0; i < providers.length; i++) {
+				providers[i] = injector.getProvider(handlers[i]);
+			}
+            pipelineInstance.setApplicationHandlers(providers);
             return new Service(injector, pipelineInstance);
         }
     }
